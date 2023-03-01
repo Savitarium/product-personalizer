@@ -38,7 +38,7 @@ const ProductOption = (props) => {
                     ))}
                 </ul>
             </div>
-            <Button className={styles.button} name={title} price={getPrice()} color={currentColor} size={currentSize}>
+            <Button className={styles.button} name={title} price={getPrice} color={currentColor} size={currentSize}>
                 <span className="fa fa-shopping-cart" />
             </Button>
         </form>
